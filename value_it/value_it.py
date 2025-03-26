@@ -1,11 +1,12 @@
 import numpy as np
 
-def value_it(S,A,P,R,I) :
-    #S is the set of all states
-    #A is the set of all actions
-    #P is the state transition function, which will be an sxsxa matrix
-    #R is a reward function R(s,a) so is always 2 dimensional
+def value_it(States, Actions, Probs, Rewards, I = 1000, gamma = 0.8) :
+    #States is the set of all states
+    #Actions is the set of all actions
+    #Probs is the state transition function, which will be an sxsxa matrix
+    #Rewards is a reward function R(s,a) so is always 2 dimensional
     #I is number of iterations they want
+    #gamma in the discount 
     s = len(S) #number of states
     a = len(A) #number of actions
     gamma = 0.8
