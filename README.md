@@ -89,7 +89,7 @@ value_it(state_party,action_party, prob_party,reward_party,1000, 0.8)
 
 ## A second example
 
-To give a larger example of using the value iteration function, suppose we have a robot moving on a $3 \times 3$ grid, where the squares is the grid are labelled $a,b,c,d,e,f,g,h,i$, where $e$ is the middle suare. If the robot hits the right edge of the grid, it takes a penalty of 20 points, and if it reaches square $e$, it gaines a reward of $50$. The grid (with the expected rewards in brackets) for each space is given as follows:
+To give a larger example of using the value iteration function, suppose we have a robot moving on a $3 \times 3$ grid, where the squares is the grid are labelled $a,b,c,d,e,f,g,h,i$, where $e$ is the middle square. If the robot hits the right edge of the grid, it takes a penalty of 20 points, and if it reaches square $e$, it gains a reward of $50$. The grid (with the expected rewards in brackets) for each space is given as follows:
 
 | | | |
 |---|---|---|
