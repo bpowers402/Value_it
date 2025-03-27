@@ -98,7 +98,7 @@ To give a larger example of using the value iteration function, suppose we have 
 | g (0) | h (0) | i (-2) |
  
 
-We suppose that if the robot is told to take an action (say for example, move up), there is a 70% chance it correctly follows the order, and a 10% chance of it moving down, left or right instead (that is, a 10% chance for each option). For example, if the robit is in square $b$, and the chosen action is to move up, the probability it moves to sqaure $a$ is 0.7 , and the probability it stays in square $b$ (because it moved left) is 0.1. The states, actions, transitions matrix and reward matrix can then be coded as follows:
+We suppose that if the robot is told to take an action (say for example, move up), there is a 70% chance it correctly follows the order, and a 10% chance of it moving down, left or right instead (that is, a 10% chance for each option). For example, if the robot is in square $b$, and the chosen action is to move up, the probability it moves to sqaure $a$ is 0.7 , and the probability it stays in square $b$ (because it moved left) is 0.1. The states, actions, transitions matrix and reward matrix can then be coded as follows:
 
 
 ```python
