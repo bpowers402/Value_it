@@ -48,19 +48,19 @@ from value_it import value_it
 
 Suppose the problem has the two states: "healthy" and "sick", and two actions: "relax" and "party".  The inputs of the matrices mentioned are assumed to be given in this order, so the top left entry of the reward matrix would be the expected reward of relaxing given that you were healthy. The reward matrix in this example is 
 $$
-R = \begin{pmatrix} 
+R = \begin{bmatrix} 
 7 & 10 \\
 0 & 2
-\end{pmatrix}
+\end{bmatrix}
 $$
 The state transition matrix for entering the healthy state is given by:
-$
+$$
 P = 
 \left(\begin{pmatrix}
 0.95 &  0.7\\
 0.5 & 0.1
 \end{pmatrix}.
-$
+$$
 Since there are only two possible states, the state transition matrix for entering the sick state is given by calculating 1 minus each entry of $P$. In the code, the inputs will be as follows:
 
 
