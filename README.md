@@ -47,12 +47,12 @@ from value_it import value_it
 ```
 
 Suppose the problem has the two states: "healthy" and "sick", and two actions: "relax" and "party".  The inputs of the matrices mentioned are assumed to be given in this order, so the top left entry of the reward matrix would be the expected reward of relaxing given that you were healthy. The reward matrix in this example is 
-$$
-R = \begin{bmatrix} 
-7 & 10 \\
-0 & 2
-\end{bmatrix}
-$$
+Matrix R:
+
+| 7  | 10 |
+|----|----|
+| 0  | 2  |
+
 The state transition matrix for entering the healthy state is given by:
 $$
 P = 
