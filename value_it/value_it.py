@@ -9,8 +9,8 @@ def value_it(States, Actions, Probs, Rewards, I = 1000, gamma = 0.8) :
     #gamma in the discount 
     s = len(States) #number of states
     a = len(Actions) #number of actions
-    V = np.zeros((I+1, s))
-    pi = [0]*s
+    V = np.zeros((I+1, s)) #values vector
+    pi = [0]*s #optimal policy vector
     for k in range(1, (I+1)):
         arg_max = [0]*s 
         for i in range(0,s):
